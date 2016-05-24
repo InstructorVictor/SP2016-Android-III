@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="com.kanjiwaru.mysdce" version="1.0.20160419" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Kanjiwaru mySDCE</name>
+    <description>The Unofficial SDCE App</description>
+    <author email="dev@kanjiwaru.org" href="http://kanjiwaru.org">Kanjiwaru Apps LLC.</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="windows-target-version" value="8.1" />
+    <preference name="windows-phone-target-version" value="8.1" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xffabcdef" />
+</widget>

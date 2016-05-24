@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.kajiwara.template"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.kanjiwaru.mysdce"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.kanjiwaru.mysdce"
+        }
+    },
+    "dependent_plugins": {}
+}

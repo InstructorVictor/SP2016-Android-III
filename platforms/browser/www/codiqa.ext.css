@@ -1,0 +1,78 @@
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#32383d;
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size: 105%;
+}
+
+section .ui-page .ui-page-theme-a .ui-page-header-fixed .ui-page-footer-fixed .ui-page-active { padding-top: 100px; }
+
+h1, h2, h3, h4 { font-family: 'sf_archery_blackregular', Arial, sans-serif; }
+
+.ui-header h1.ui-title  { font-size: 150%; }
+
+.ui-footer h4.ui-title  { font-size: 110%; }
+
+aside a { float: right; }
+
+.imgCropped {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 25px;
+	line-height: 0;
+}
+
+.imgResized {
+	width: 100%;
+	border-radius: 10px; 
+}
+
+#classTable {
+	width: 100%;
+	margin: auto;
+	table-layout: fixed;
+	text-wrap: normal;
+	word-wrap: break-word;
+}
+
+#classTable th {
+	background-color: purple;
+	color: white;
+}
+
+#classTable tr:nth-of-type(odd) {
+	background-color: rgb(0,50,200);
+	color: white;
+}
+
+#classTable tr:nth-of-type(even) {
+	background-color: rgba(0,50,200,.5);
+	color: white;
+}
+
+.divTwoCol {
+	width: 95%;
+	margin: auto;
+}
+
+.divLeftCol {
+	width: 20%;
+	float: left;
+}
+
+.divRightCol {
+	width: 70%;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+/*
+*	Project Author: Victor Campos <vcampos@swccd.edu>
+*	Project Name:	mySDCE
+*	Version:		1.20160419
+*	Date:			2016-04-19
+*	Description:	The Unofficial SDCE app
+*/
